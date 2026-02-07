@@ -1,0 +1,361 @@
+# sent_id = cairo-1
+# parallel_id = cairo/1
+# text = Refīḳasına bir mektūb taḥrīr eyledi.
+# text[en] = The girl wrote a letter to her friend.
+1	Refīḳasına	refīḳa	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	mektūb	mektūb	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+4	taḥrīr	taḥrīr	NOUN	_	Case=Nom|Number=Sing	5	compound:lvc	_	_
+5	eyledi	eyle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-2
+# parallel_id = cairo/2
+# text = Yaġmur yaġdıġını ẓann ediyorum.
+# text[en] = I think that it is raining.
+1	Yaġmur	yaġmur	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	yaġdıġını	yaġ	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	4	ccomp	_	_
+3	ẓann	ẓann	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:lvc	_	_
+4	ediyorum	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-3.1
+# parallel_id = cairo/3/alt1
+# text = O tütün ve alḳol içmegi terk etmege teşebbüs eyledi.
+# text[en] = He tried to stop smoking and drinking.
+1	O	o	PRON	_	Case=Nom|Number=Sing|PronType=Prs	9	nsubj	_	_
+2	tütün	tütün	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+3	ve	ve	CCONJ	_	_	4	cc	_	_
+4	alḳol	alḳol	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
+5	içmegi	iç	VERB	Vnoun	Case=Acc|Number=Sing|VerbForm=Vnoun	7	xcomp	_	_
+6	terk	terk	NOUN	_	Case=Nom|Number=Sing	7	compound:lvc	_	_
+7	etmege	et	VERB	Vnoun	Case=Dat|Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
+8	teşebbüs	teşebbüs	NOUN	_	Case=Nom|Number=Sing	9	compound:lvc	_	_
+9	eyledi	eyle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Stop	_	9	punct	_	_
+
+# sent_id = cairo-3.2
+# parallel_id = cairo/3/alt2
+# text = Tütün ve alḳol içmegi terk etmege teşebbüs eyledi.
+# text[en] = He tried to stop smoking and drinking.
+1	Tütün	tütün	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+2	ve	ve	CCONJ	_	_	3	cc	_	_
+3	alḳol	alḳol	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
+4	içmegi	iç	VERB	Vnoun	Case=Acc|Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
+5	terk	terk	NOUN	_	Case=Nom|Number=Sing	6	compound:lvc	_	_
+6	etmege	et	VERB	Vnoun	Case=Dat|Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
+7	teşebbüs	teşebbüs	NOUN	_	Case=Nom|Number=Sing	8	compound:lvc	_	_
+8	eyledi	eyle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Stop	_	8	punct	_	_
+
+# sent_id = cairo-4.1
+# parallel_id = cairo/4/alt1
+# text = Sen gitmegi murād eyler misin?
+# text[en] = Do you want to go?
+# note = "musun" may need to be split.
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	gitmegi	git	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
+3	murād	murād	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	eyler	eyle	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	misin	mi	AUX	_	Number=Sing|Person=2|PronType=Int	4	aux:q	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-4.2
+# parallel_id = cairo/4/alt2
+# text = Gitmegi murād eyler misin?
+# text[en] = Do you want to go?
+1	Gitmegi	git	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	xcomp	_	_
+2	murād	murād	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
+3	eyler	eyle	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	misin	mi	AUX	_	Number=Sing|Person=2|PronType=Int	3	aux:q	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-5
+# parallel_id = cairo/5
+# text = Sam, pencereyi aç!
+# text[en] = Sam, open the window!
+1	Sam	Sam	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pencereyi	pencere	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	aç	aç	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-6.1
+# parallel_id = cairo/6/alt1
+# text = O zevcine ʿarabayı yıḳattırdı.
+# text[en] = She made her husband wash the car.
+# note = translation may need to be adjusted. (double causative)
+1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	zevcine	zevc	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:agent	_	_
+3	ʿarabayı	ʿaraba	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	yıḳattırdı	yıḳa	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-6.2
+# parallel_id = cairo/6/alt2
+# text = Zevcine ʿarabayı yıḳattırdı.
+# text[en] = She made her husband wash the car.
+1	Zevcine	zevc	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:agent	_	_
+2	ʿarabayı	ʿaraba	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	yıḳattırdı	yıḳa	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-7
+# parallel_id = cairo/7
+# text = Peterin hem-sāyesi çiti aḥmere boyadı.
+# text[en] = Peter's neighbor painted the fence red.
+# note = what about "kırmızıya boyadı"?
+1	Peterin	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	hem-sāyesi	hem-sāye	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+3	çiti	çit	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	aḥmere	aḥmer	ADJ	_	_	5	xcomp	_	_
+5	boyadı	boya	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-8
+# parallel_id = cairo/8
+# text = Benüm babam seniñkinden daha ʿālādur.
+# text[en] = My dad is cooler than yours.
+# note = "-ki" may need to be split.
+1	Benüm	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	babam	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
+3-4	seniñkinden	_	_	_	_	_	_	_	_
+3	seniñ	sen	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
+4	kinden	ki	PRON	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	obl	_	_
+5	daha	daha	ADV	_	_	6	advmod	_	_
+6	ʿālādur	ʿālā	ADJ	_	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-9
+# parallel_id = cairo/9
+# text = Mary tunç iḥrāz eyledi, Peter sīm, Jane zer.
+# text[en] = Mary won bronze, Peter silver, and Jane gold.
+1	Mary	Mary	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	tunç	tunç	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+3	iḥrāz	murād	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	eyledi	eyle	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Peter	Peter	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
+7	sīm	sīm	NOUN	_	Case=Nom|Number=Sing	4	orphan	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Jane	Jane	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
+10	zer	zer	NOUN	_	Case=Nom|Number=Sing	9	orphan	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-10
+# parallel_id = cairo/10
+# text = İguazu kebīr bir memleket mi, yoḫsa ṣaġīr mi?
+# text[en] = Is Iguazu a big or a small country?
+1	İguazu	İguazu	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kebīr	kebīr	ADJ	_	_	4	amod	_	_
+3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	memleket	memleket	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+5	mi	mi	AUX	_	Number=Sing|Person=3|PronType=Int	4	aux:q	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	yoḫsa	yoḫsa	CCONJ	_	_	8	cc	_	_
+8	ṣaġīr	ṣaġīr	ADJ	_	_	4	conj	_	_
+9	mi	mi	AUX	_	Number=Sing|Person=3|PronType=Int	8	aux:q	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-11
+# parallel_id = cairo/11
+# text = Ne Peter Smith ne de Mary Brown intiḫāb olunabilir.
+# text[en] = Neither Peter Smith nor Mary Brown could be selected.
+1	Ne	ne	CCONJ	_	_	3	cc	_	_
+2	Peter	Peter	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+3	Smith	Smith	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
+4	ne	ne	CCONJ	_	_	6	cc	_	_
+5	de	de	ADV	_	_	4	fixed	_	_
+6	Mary	Mary	PROPN	_	Case=Nom|Number=Sing	2	conj	_	_
+7	Brown	Brown	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
+8	intiḫāb	intiḫāb	NOUN	_	Case=Nom|Number=Sing	9	compound:lvc	_	_
+9	olunabilir	ol	VERB	_	Aspect=Imp|Evident=Fh|Mood=Pot|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = cairo-12.1
+# parallel_id = cairo/12/alt1
+# text = Anlar kimin taḥrīr eyledigini hiç bilmiyorlar.
+# text[en] = They have no idea who wrote it.
+1	Anlar	o	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	kimin	kim	PRON	_	Case=Gen|Number=Sing|PronType=Int	3	nsubj	_	_
+3	taḥrīr	taḥrīr	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	eyledigini	eyle	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	ccomp	_	_
+5	hiç	hiç	ADV	_	_	6	advmod	_	_
+6	bilmiyorlar	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-12.2
+# parallel_id = cairo/12/alt2
+# text = Kimin taḥrīr eyledigini hiç bilmiyorlar.
+# text[en] = They have no idea who wrote it.
+1	Kimin	kim	PRON	_	Case=Gen|Number=Sing|PronType=Int	2	nsubj	_	_
+2	taḥrīr	taḥrīr	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
+3	eyledigini	eyle	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	5	ccomp	_	_
+4	hiç	hiç	ADV	_	_	5	advmod	_	_
+5	bilmiyorlar	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-13.1
+# parallel_id = cairo/13/alt1
+# text = Sen neye naẓar eyliyorsun?
+# text[en] = What are you looking at?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	neye	ne	PRON	_	Case=Dat|Number=Sing|PronType=Int	4	obl	_	_
+3	naẓar	naẓar	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	eyliyorsun	eyle	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-13.2
+# parallel_id = cairo/13/alt2
+# text = Neye naẓar eyliyorsun?
+# text[en] = What are you looking at?
+1	Neye	ne	PRON	_	Case=Dat|Number=Sing|PronType=Int	3	obl	_	_
+2	naẓar	naẓar	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
+3	eyliyorsun	bak	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-14.1
+# parallel_id = cairo/14/alt1
+# text = Sen ne zemān gelebilecegini zann ediyorsun?
+# text[en] = When do you think you can come?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+2	ne	ne	DET	_	PronType=Int	3	det	_	_
+3	zemān	zemān	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	gelebilecegini	gel	VERB	_	Aspect=Perf|Case=Acc|Evident=Fh|Mood=Pot|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Fut	6	ccomp	_	_
+5	zann	zann	NOUN	_	Case=Nom|Number=Sing	6	compound:lvc	_	_
+6	ediyorsun	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-14.2
+# parallel_id = cairo/14/alt2
+# text = Ne zemān gelebilecegini zann ediyorsun?
+# text[en] = When do you think you can come?
+1	Ne	ne	DET	_	PronType=Int	2	det	_	_
+2	zemān	zemān	NOUN	_	Case=Nom|Number=Sing	3	obl	_	_
+3	gelebilecegini	gel	VERB	_	Aspect=Perf|Case=Acc|Evident=Fh|Mood=Pot|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Fut	5	ccomp	_	_
+4	zann	zann	NOUN	_	Case=Nom|Number=Sing	5	compound:lvc	_	_
+5	ediyorsun	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-15.1
+# parallel_id = cairo/15/alt1
+# text = O ʿaraba aldı amma birāderi sadece bisiklet.
+# text[en] = He bought a car but his brother just a bike.
+1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ʿaraba	ʿaraba	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	amma	amma	CCONJ	_	_	6	cc	_	_
+5	birāderi	birāder	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
+6	sadece	sadece	ADV	_	_	7	advmod	_	_
+7	bisiklet	bisiklet	NOUN	_	Case=Nom|Number=Sing	5	orphan	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-15.2
+# parallel_id = cairo/15/alt2
+# text = ʿAraba aldı amma birāderi sadece bisiklet.
+# text[en] = He bought a car but his brother just a bike.
+1	ʿAraba	ʿaraba	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
+2	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	amma	amma	CCONJ	_	_	5	cc	_	_
+4	birāderi	birāder	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
+5	sadece	sadece	ADV	_	_	6	advmod	_	_
+6	bisiklet	bisiklet	NOUN	_	Case=Nom|Number=Sing	4	orphan	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo-16
+# parallel_id = cairo/16
+# text = Peter ve Mary birbirlerini ḳucaḳladılar ve andan sonra odadan ḫurūc etdiler.
+# text[en] = Peter and Mary hugged each other and then left the room.
+1	Peter	Peter	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	ve	ve	CCONJ	_	_	3	cc	_	_
+3	Mary	Mary	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
+4	birbirlerini	birbiri	PRON	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Rcp	5	obj	_	_
+5	ḳucaḳladılar	ḳucaḳla	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	ve	ve	CCONJ	_	_	11	cc	_	_
+7	andan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Dem	11	obl	_	_
+8	sonra	sonra	ADV	_	_	7	case	_	_
+9	odadan	oda	NOUN	_	Case=Abl|Number=Sing	11	obl	_	_
+10	ḫurūc	ḫurūc	NOUN	_	Case=Nom|Number=Sing	11	compound:lvc	_	_
+11	etdiler	et	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Past	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-17.1
+# parallel_id = cairo/17/alt1
+# text = O zülfünü yapıyor olmalıydı amma nedense o gün yapmadı.
+# text[en] = She should have been doing her hair but for some reason she wouldn't that day.
+1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	zülfünü	zülf	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	yapıyor	yap	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	olmalıydı	ol	AUX	_	Aspect=Perf|Evident=Fh|Mood=Nec|Number=Sing|Person=3|Tense=Past	3	aux	_	_
+5	amma	amma	CCONJ	_	_	10	cc	_	_
+6-7	nedense	_	_	_	_	_	_	_	_
+6	neden	neden	ADV	_	_	10	advmod	_	_
+7	se	i	AUX	_	Aspect=Imp|Evident=Nfh|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+8	o	o	DET	_	Definite=Def|PronType=Dem	9	det	_	_
+9	gün	gün	NOUN	_	Case=Nom|Number=Sing	10	obl:tmod	_	_
+10	yapmadı	yap	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-17.2
+# parallel_id = cairo/17/alt2
+# text = Zülfünü yapıyor olmalıydı amma nedense o gün yapmadı.
+# text[en] = She should have been doing her hair but for some reason she wouldn't that day.
+1	Zülfünü	zülf	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	_
+2	yapıyor	yap	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	olmalıydı	ol	AUX	_	Aspect=Perf|Evident=Fh|Mood=Nec|Number=Sing|Person=3|Tense=Past	2	aux	_	_
+4	amma	amma	CCONJ	_	_	9	cc	_	_
+5-6	nedense	_	_	_	_	_	_	_	_
+5	neden	neden	ADV	_	_	7	advmod	_	_
+6	se	i	AUX	_	Aspect=Imp|Evident=Nfh|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+7	o	o	DET	_	Definite=Def|PronType=Dem	8	det	_	_
+8	gün	gün	NOUN	_	Case=Nom|Number=Sing	9	obl:tmod	_	_
+9	yapmadı	yap	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo-18
+# parallel_id = cairo/18
+# text = Ayaḳ uyduramadım çünki pek sürʿatlü ḳoşdı.
+# text[en] = I wasn't able to keep up, because he ran too fast.
+1	Ayaḳ	ayaḳ	NOUN	_	Case=Nom|Number=Sing	2	compound:lvc	_	_
+2	uyduramadım	uy	VERB	_	Aspect=Perf|Evident=Fh|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past|Voice=Cau	0	root	_	_
+3	çünki	çünki	SCONJ	_	_	6	mark	_	_
+4	pek	pek	ADV	_	_	5	advmod	_	_
+5	sürʿatlü	sürʿatlü	ADV	_	_	6	advmod	_	_
+6	ḳoşdı	ḳoş	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo-19
+# parallel_id = cairo/19
+# text = Bu mektūb Peterden ve dün iletüldi.
+# text[en] = This letter is from Peter and it was delivered yesterday.
+1	Bu	bu	DET	_	Definite=Def|PronType=Dem	2	det	_	_
+2	mektūb	mektūb	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	Peterden	Peter	PROPN	_	Case=Abl|Number=Sing	6	obl	_	_
+4	ve	ve	CCONJ	_	_	5	cc	_	_
+5	dün	dün	ADV	_	_	6	advmod	_	_
+6	iletüldi	ilet	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-20.1
+# parallel_id = cairo/20/alt1
+# text = O Fransanıñ pāy-ı taḫtı Parisde büyüdi.
+# text[en] = She grew up in Paris, the capital of France.
+1	O	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	Fransanıñ	Fransa	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	pāy-ı	pāy	NOUN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
+4	taḫtı	taḫt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	_
+5	Parisde	Paris	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
+6	büyüdi	büyü	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-20.2
+# parallel_id = cairo/20/alt2
+# text = Fransanıñ pāy-ı taḫtı Parisde büyüdü.
+# text[en] = She grew up in Paris, the capital of France.
+1	Fransanıñ	Fransa	PROPN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	pāy-ı	pāy	NOUN	_	Case=Nom|Number=Sing	4	nmod:poss	_	_
+3	taḫtı	taḫt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod:poss	_	_
+4	Parisde	Paris	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
+5	büyüdü	büyü	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
