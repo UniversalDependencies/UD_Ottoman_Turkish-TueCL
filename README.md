@@ -4,7 +4,7 @@ The Ottoman Turkish-TueCL treebank is part of a parallel Universal Dependencies 
 
 # Introduction
 
-The Ottoman Turkish-TueCL treebank consists of 148 carefully selected sentences (904 tokens) compiled from multiple sources, including the Cairo corpus (20 sentences), the UDTW23 corpus (20 sentences), and 97 additional examples illustrating specific grammatical constructions of interest. It serves as the source treebank for a parallel corpus spanning four Turkic languages from distinct branches of the family: Turkish, Ottoman Turkish, and Azerbaijani (Oghuz), Kyrgyz (Kipchak), and Uzbek (Karluk).
+The Ottoman Turkish-TueCL treebank consists of 148 carefully selected sentences (929 tokens) compiled from multiple sources, including the Cairo corpus (20 sentences), the UDTW23 corpus (20 sentences), and 97 additional examples illustrating specific grammatical constructions of interest. It serves as the source treebank for a parallel corpus spanning four Turkic languages from distinct branches of the family: Turkish, Ottoman Turkish, and Azerbaijani (Oghuz), Kyrgyz (Kipchak), and Uzbek (Karluk).
 
 The treebank includes various syntactic phenomena relevant to Turkic languages, such as pro-drop constructions, auxiliary chains, postverbal structures, and non-canonical word orders. Each sentence has been manually annotated following UD guidelines, with particular attention to morphosyntactic features that highlight both shared typological characteristics and language-specific traits. English translations are provided as metadata to support comparative research.
 
