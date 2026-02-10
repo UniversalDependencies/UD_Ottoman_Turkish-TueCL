@@ -433,6 +433,33 @@
 3	ṭabіbe	ṭabіb	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = udtw23-5
+# parallel_id = tuecl/udtw23-5
+# text = Çözmeye çaluşduġımız müşkül kütübhānede beş kitāblık yir bile olmaması.
+# text[en] = The (problem) we're trying to solve is that the library doesn't even have room for five books.
+# type = null morpheme copula with multiple subjects, productive/lexicalized derivation
+1	Çözmeye	çöz	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	2	advcl	_	_
+2	çaluşduġımız	çaluş	VERB	_	Aspect=Perf|Mood=Ind|Number[psor]=Plur|Person[psor]=1|Tense=Past|VerbForm=Part	3	acl	_	_
+3	müşkül	müşkül	NOUN	_	Case=Nom|Number=Sing	9	nsubj:outer	_	_
+4	kütübhānede	kütübhāne	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+5	beş	beş	NUM	_	NumType=Card	6	nummod	_	_
+6	kitāblık	kitāblık	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	yir	yir	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+8	bile	bile	ADV	_	_	7	advmod:emph	_	_
+9	olmaması	ol	VERB	_	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = udtw23-6
+# parallel_id = tuecl/udtw23-6
+# text = Anneannesi hemşīreyidi.
+# text[en] = His/her grandmother was a nurse.
+# type = copula
+1	Anneannesi	anneanne	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+2-3	hemşireydi	_	_	_	_	_	_	_	SpaceAfter=No
+2	hemşīre	hemşīre	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+3	yidi	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = udtw23-7
 # parallel_id = tuecl/udtw23-7
 # text = Peki kütübḫānedekiler nerede idi?
