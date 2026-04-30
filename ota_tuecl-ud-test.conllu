@@ -482,7 +482,7 @@
 2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3-4	sāʿāttir	_	_	_	_	_	_	_	_
 3	sāʿāt	sāʿāt	ADV	_	_	6	advmod	_	_
-4	tir	i	AUX	_	Number=Sing|Person=3	3	cop	_	_
+4	tir	i	AUX	_	Mood=Gen|Number=Sing|Person=3	3	cop	_	_
 5	dāʾirede	dāʾire	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 6-7	yoḳmuş	_	_	_	_	_	_	_	SpaceAfter=No
 6	yoḳ	yoḳ	ADJ	_	Polarity=Neg	0	root	_	_
@@ -635,7 +635,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	baña	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
 7	maʾīyi	maʾī	ADJ	_	Case=Acc|Number=Sing	8	obj	_	_
-8	virir	vir	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	virir	vir	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 9	misin	mi	AUX	_	Number=Sing|Person=2|Tense=Pres	8	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -645,7 +645,7 @@
 # text[en] = We must make the young abandon unattainable goals.
 # type = multiple TAM markers, multi-word expressions
 1	Gençlere	genç	NOUN	_	Case=Dat|Number=Plur	6	obl	_	_
-2	erişilebilir	eriş	VERB	_	Aspect=Hab|Evident=Fh|Mood=Pot|VerbForm=Part|Voice=Pass	4	acl	_	_
+2	erişilebilir	eriş	VERB	_	Aspect=Hab|Evident=Fh|Mood=GenPot|VerbForm=Part|Voice=Pass	4	acl	_	_
 3	olmayan	ol	AUX	_	Polarity=Neg|Tense=Pres|VerbForm=Part	2	aux	_	_
 4	ahdāfı	hedef	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 5	terk	terk	NOUN	_	Case=Nom|Number=Sing	6	compound:lvc	_	_
@@ -684,24 +684,24 @@
 
 # sent_id = 2
 # parallel_id = tuecl/2
-# text = Deñiz kitāb okuyor.
+# text = Deñiz kitāb oḳuyor.
 # text[en] = Deniz is reading a book.
 # type = simple sentence (transitive)
 1	Deñiz	Deñiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	kitāb	kitāb	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
-3	okuyor	oku	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+3	oḳuyor	oḳu	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 3
 # parallel_id = tuecl/3
-# text = Deñiz aḫşamları evde kitāb okur.
+# text = Deñiz aḫşamları evde kitāb oḳur.
 # text[en] = Deniz reads books in the evenings.
 # type = simple sentence (with modifiers)
 1	Deñiz	Deñiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 2	aḫşamları	aḫşam	NOUN	_	Case=Acc|Number[psor]=Sing|Person[psor]=3	5	obl:tmod	_	_
 3	evde	ev	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 4	kitāb	kitāb	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
-5	okur	oku	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	oḳur	oḳu	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 4
@@ -831,7 +831,7 @@
 1	Deñiz	Deñiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2-3	ṭālebedür	_	_	_	_	_	_	_	SpaceAfter=No
 2	ṭālebe	ṭālebe	NOUN	_	Case=Nom|Number=Sing|Polarity=Pos	0	root	_	_
-3	dür	i	AUX	_	Number=Sing|Person=3	2	cop	_	_
+3	dür	i	AUX	_	Mood=Gen|Number=Sing|Person=3	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
@@ -1234,7 +1234,7 @@
 3	uyursa	uyu	VERB	_	Aspect=Imp|Evident=Fh|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	6	advcl	_	_
 4	mektebe	mekteb	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 5	geç	geç	ADV	_	_	6	advmod	_	_
-6	ḳalur	ḳal	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	ḳalur	ḳal	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 51
@@ -1474,7 +1474,7 @@
 # type = question particle (copular with additional affix)
 1	Deñiz	Deñiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
-3	midir	mi	AUX	_	Number=Sing|Person=3|PronType=Int	2	aux:q	_	SpaceAfter=No
+3	midir	mi	AUX	_	Mood=Gen|Number=Sing|Person=3|PronType=Int	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 71
@@ -1624,7 +1624,7 @@
 # type = miscellaneous (zero A->N derivation)
 1	Baña	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
 2	maʾīyi	maʾī	ADJ	_	Case=Acc|Number=Sing	3	obj	_	_
-3	virür	vir	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Tense=Pres	0	root	_	_
+3	virür	vir	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Tense=Pres	0	root	_	_
 4	misin	mi	AUX	_	Number=Sing|Person=2|PronType=Int	3	aux:q	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -1704,12 +1704,12 @@
 # type = miscellaneous (idi + epenthesis)
 1	Deñiz	Deñiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	buralara	bura	PRON	_	Case=Dat|Number=Plur	3	obl	_	_
-3	gelir	gel	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+3	gelir	gel	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	vaḳt-i	vaḳt	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 6	ḫālīlerinde	ḫālī	ADJ	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	amod	_	_
 7	kitāb	kitāb	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
-8	oḳur	oḳu	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+8	oḳur	oḳu	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 9	idi	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1743,7 +1743,7 @@
 9	dünyāya	dünyā	NOUN	_	Case=Dat|Number=Sing	12	obl	_	_
 10	aynı	aynı	ADJ	_	_	11	amod	_	_
 11	gözle	göz	NOUN	_	Case=Ins|Number=Sing	12	obl	_	_
-12	baḳamaz	baḳ	VERB	_	Aspect=Hab|Evident=Fh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	4	advcl	_	SpaceAfter=No
+12	baḳamaz	baḳ	VERB	_	Aspect=Hab|Evident=Fh|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	4	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 94
@@ -1758,7 +1758,7 @@
 5	de	de	ADV	_	_	4	advmod:emph	_	_
 6	ütüyü	ütü	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
 7	ḥall	ḥall	NOUN	_	Case=Acc|Number=Sing	8	compound:lvc	_	_
-8	ederiz	et	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres	4	conj	_	SpaceAfter=No
+8	ederiz	et	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Plur|Person=1|Tense=Pres	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 95
@@ -1802,6 +1802,6 @@
 8	açıp	aç	VERB	_	VerbForm=Conv	11	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	müteḳābilen	müteḳābilen	ADJ	_	_	11	advmod	_	_
-11	tozlaşır	tozlaş	VERB	_	Aspect=Hab|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+11	tozlaşır	tozlaş	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
